@@ -30,13 +30,11 @@ function render() {
 }
 
 function handlePlusClick() {
-  console.log(sum);
   sum += parseInt(tempSum.value);
   render();
 }
 
 function handleMinusClick() {
-  console.log(sum);
   sum -= parseInt(tempSum.value);
   render();
 }
