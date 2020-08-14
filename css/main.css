@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+  }
+  
+  html, * {
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  * {
+    font-size: 20px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    text-align:center
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    text-align:center
+  }
+
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    text-align:center
+  }
+  
+  button:hover {
+    background-color: darkgrey;
+    color: white;
+  }
+
+  .numChangerDisplay {
+    align-items: center;
+  }
+
+  .sum {
+    text-align:center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 40px;
+
+  }
+  
